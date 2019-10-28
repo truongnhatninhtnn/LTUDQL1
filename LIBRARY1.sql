@@ -101,3 +101,4 @@ alter table BOOK add constraint fk_BOOK_USERS foreign key(IDuser) references USE
 alter table BOOK add constraint fk_BOOK_PUBLISHER foreign key(IDpublisher) references PUBLISHER(IDpublisher)
 alter table BOOK add constraint fk_BOOK_AUTHOR foreign key(IDauthor) references AUTHOR(IDauthor)
 alter table BILL add constraint fk_BILL_CARDREADER foreign key(IDcardreader) references CARDREADER(IDcardreader)
+--xin lỗi mấy bạn do mình chưa backup và commit--
